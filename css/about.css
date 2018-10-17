@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 40vh;
+    background: #EDEFEE;
+}
+header img.light {
+    width: 300px;
+    height: auto;
+    margin-left: 570px;
+}
+section {
+    background: url(/Users/binbin/Documents/buzzin/img/skybg18.jpeg) no-repeat;
+    background-size: cover;
+}
+/* navigation bar */
+nav {
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: .2em;
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    z-index: 1;
+}
+.logo {
+    float: left;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 40px;
+}
+img {
+    width: 55px;
+    height: 55px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding-top: 1%;
+    padding-bottom:1%;
+    padding-right: 30px;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgba(0, 0, 0, 0.664);
+}
+
+nav ul li {
+    display: inline;
+    padding: 0.8em 30px;
+}
+nav ul {
+    max-height: 50%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+/* gallery and info*/
+div.gallery {
+    width: 600px;
+    height: 398px;
+    margin-left: 415px;
+    /* border: 2px solid #000; */
+    overflow: scroll;
+    box-shadow: 2px 2px 60px #000;
+}
+div.gallery img,
+div.gallery video {
+    width: 600px;
+    height: auto;
+}
+
+p {
+    width: 860px;
+    padding: 100px;
+    margin-left: 190px;
+    letter-spacing: 0.08em;
+    line-height: 2em;
+}
